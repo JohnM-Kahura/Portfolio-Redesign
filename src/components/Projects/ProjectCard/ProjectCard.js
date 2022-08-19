@@ -20,7 +20,7 @@ function ProjectCard() {
             <p>{list.description}</p>
             <Stack>
               <span className="stackTitle">Tech Stack -</span>
-              <span className="tags">{list.tech_stack}</span>
+              <p className="tags">{list.tech_stack}</p>
             </Stack>
             <BtnGroup>
               <a

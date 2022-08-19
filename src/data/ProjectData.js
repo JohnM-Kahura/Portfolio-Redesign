@@ -4,7 +4,7 @@ export const ProjectList = [
     img: "https://raw.githubusercontent.com/JohnM-Kahura/Kenyan-Eye-Blog/master/kenyan-eye.png",
     title: "Kenyan Eye",
     description: "Kenyan Eye is a blog where people can share their views on the political situation in my country",
-    tech_stack: "Python,Django,HTML,CSS,Tailwind,JavaScript,SQLite",
+    tech_stack: "Python,Django,Tailwind,JavaScript,SQLite",
     github_url: "https://github.com/JohnM-Kahura/Kenyan-Eye-Blog",
     demo_url: "http://kenyan-eye.herokuapp.com",
   },
