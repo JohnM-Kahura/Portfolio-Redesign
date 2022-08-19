@@ -20,7 +20,7 @@ function About() {
           />
           <div className="AboutBio">
             Hello! My name is <strong>John Mungai Kahura</strong> 
-            I love coding and working with different
+             .I love coding and working with different
              technologies in order to create great projects.
              Python is my Preffered language but I have mastered 
              multiple languages and can easily switch if need be.
