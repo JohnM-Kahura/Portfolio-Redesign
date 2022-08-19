@@ -1,17 +1,29 @@
-import React, { useState } from "react";
+import React, { useState , useEffect, useRef  } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
+import { init } from 'ityped'
+
+import "./intro.scss"
 import {
   HeroContainer,
   HeroWrapper,
   HeroLeft,
   HeroRight,
-  Image,
   ScrollDown,
   ScrollLink,
 } from "./HeroElements";
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
+  const textRef = useRef()
+    useEffect(() =>  {
+        init(textRef.current, { 
+            showCursor: true,
+            backDelay:2000,
+            backSpeed:60,
+             strings: ['Python','Django','Flutter','React','NLP'] 
+            }
+            )
+    }, [])
 
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -23,17 +35,17 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <h1>Hi, I'm YourName</h1>
-            <h5>Frontend Developer</h5>
-            <p>
-              I design and code beautifully simple things, and I love what I do.
-            </p>
+          <div className="right">
+                <div className="wrapper">
+                    <h2>Hi There, I'm </h2>
+                    <h1>John Mungai</h1>
+                    <h3><span ref={textRef}></span> Engineer </h3>
+                </div>
+                </div>
+            
           </HeroLeft>
           <HeroRight>
-            <Image
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
-              alt="man-svgrepo"
-            />
+            
           </HeroRight>
         </HeroWrapper>
         <ScrollDown to="projects">
