@@ -13,7 +13,7 @@ function ProjectCard() {
       {ProjectList.map((list, index) => (
         <Card key={index}>
           <CardLeft>
-            <img src={list.img} alt={list.name} />
+            <img src={list.img} alt={list.name} style={{height:'300px'  }}/>
           </CardLeft>
           <CardRight>
             <h4>{list.title}</h4>
