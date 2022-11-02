@@ -17,11 +17,10 @@ export const Card = styled.div`
 export const CardLeft = styled.div`
   background: #151418;
   border-radius: 5px;
-  padding: 5px;
   justify-self: center;
 
   img {
-    border-radius: 3px;
+    border-radius: 5px;
     height: auto;
   }
 `;
