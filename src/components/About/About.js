@@ -31,7 +31,7 @@ function About() {
               
           </div>
           <div className="AboutBio tagline2">
-            I have become confident using the following technologies.
+            This are the technologies I am confident with.
           </div>
           <Technologies>
             {stackList.map((stack, index) => (
