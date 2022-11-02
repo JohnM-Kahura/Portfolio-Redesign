@@ -9,6 +9,14 @@ export const ProjectList = [
     demo_url: "http://kenyan-eye.herokuapp.com",
   },
   {
+    img: "https://raw.githubusercontent.com/JohnM-Kahura/quickbite/master/images/logo.webp",
+    title: "Quick Bite",
+    description: "This is a food ordering app that students use to order Burgers and Kebabs.Users can pay using MPESA.",
+    tech_stack: "Flutter,Javascript,Firebase,Daraja API",
+    github_url: "https://github.com/JohnM-Kahura/quickbite/tree/master",
+    demo_url: "https://github.com/JohnM-Kahura/quickbite/tree/master#readme",
+  },
+  {
     img: "https://github.com/JohnM-Kahura/Biometrics-SPM/blob/master/alter-tech-demo.png?raw=true",
     title: "BioMetrics App",
     description:
@@ -17,23 +25,32 @@ export const ProjectList = [
     github_url: "https://github.com/JohnM-Kahura/Biometrics-SPM",
     demo_url: "https://johnm-kahura.github.io",
   },
-  // {
-  //   img: "https://github.com/JohnM-Kahura/Biometrics-SPM/blob/master/preview.png?raw=true",
-  //   title: "Portfolio",
-  //   description: "Ofcourse i made my own personal portfolio website.",
-  //   tech_stack: "Reactjs, Css",
-  //   github_url: "https://your_project_github_link",
-  //   demo_url: "https://your_project_demo_link/",
-  // },
-  // {
-  //   img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_3.png",
-  //   title: "Ecommerce website",
-  //   description:
-  //     "Created simple ecommerce website using reactjs and react-use-cart plugin.",
-  //   tech_stack: "Reactjs, Css",
-  //   github_url: "https://your_project_github_link",
-  //   demo_url: "https://your_project_demo_link",
-  // },
+  {
+    img: "https://github.com/JohnM-Kahura/Portfolio-Redesign/blob/master/src/Assets/portfolio.jpg?raw=true",
+    title: "Portfolio",
+    description: "This is my portfolio",
+    tech_stack: "Reactjs, Css",
+    github_url: "https://github.com/JohnM-Kahura/Portfolio-Redesign",
+    demo_url: "https://john-mungai.netlify.app",
+  },
+  {
+    img: "https://github.com/JohnM-Kahura/Quiz-App/blob/master/screenshots/quiz.png?raw=true",
+    title: "Quiz App",
+    description: "This is a mobile app that pull questions from the trivia API and displays them tp the user.",
+    tech_stack: "Flutter,Trivia API",
+    github_url: "https://github.com/JohnM-Kahura/Quiz-App",
+    demo_url: "https://github.com/JohnM-Kahura/Quiz-App#readme",
+  },
+  
+  {
+    img: "https://github.com/JohnM-Kahura/Digital-Receipts/blob/master/screenshots/banner.jpg?raw=true",
+    title: "Digital Receipts App",
+    description: "This is a mobile app that help users share the prices of goods they buy at a gives store..",
+    tech_stack: "Flutter,Firebase,Qr code scanner",
+    github_url: "https://github.com/JohnM-Kahura/Digital-Receipts",
+    demo_url: "https://github.com/JohnM-Kahura/Digital-Receipts#readme",
+  },
+
 ];
 
 // --------------------------------------- Skills
