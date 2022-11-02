@@ -43,6 +43,14 @@ export const ProjectList = [
   },
   
   {
+    img: "https://cdn.educba.com/academy/wp-content/uploads/2019/12/RSA-Algorithm.jpg",
+    title: "RSA Encryptor",
+    description: "This is a static page that  helps users encrypt or decrypt any text",
+    tech_stack: "HTML,CSS,BootStrap,Py-Script",
+    github_url: "https://github.com/JohnM-Kahura/RSA",
+    demo_url: "https://github.com/JohnM-Kahura/RSA",
+  },
+  {
     img: "https://github.com/JohnM-Kahura/Digital-Receipts/blob/master/screenshots/banner.jpg?raw=true",
     title: "Digital Receipts App",
     description: "This is a mobile app that help users share the prices of goods they buy at a gives store..",
