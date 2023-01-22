@@ -51,6 +51,15 @@ export const ProjectList = [
     demo_url: "https://github.com/JohnM-Kahura/RSA",
   },
   {
+    img: "https://eac.int/images/Press_Releases/corona.jpg",
+    title: "Covid Stats App",
+    description: "This is a mobile app that shows users the current covid stats for each country",
+    tech_stack: "Flutter",
+    
+    github_url: "https://github.com/JohnM-Kahura/Covid-Stats",
+    demo_url: "https://github.com/JohnM-Kahura/Covid-Stats#readme",
+  },
+  {
     img: "https://github.com/JohnM-Kahura/Digital-Receipts/blob/master/screenshots/banner.jpg?raw=true",
     title: "Digital Receipts App",
     description: "This is a mobile app that help users share the prices of goods they buy at a gives store..",
